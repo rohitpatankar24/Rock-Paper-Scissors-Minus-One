@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    border: none;
+}
+body{
+    background-color: #240046;
+    text-align: center;
+}
+.container{
+    margin-left: 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+.outer{
+    background-color: #133c47;
+    border-radius: 2.5rem;
+    box-shadow: 0 0 2.5rem rgb(118, 107, 93);
+}
+details {
+    margin-top: 15px;
+    border-radius: 4px;
+    margin-left: 100vh;
+    font-size: 25px;
+    color: #f2e9e4;
+    width: 90px;
+    padding: 0.5em 0.5em 0;
+}  
+summary {
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+} 
+details[open] {
+    margin-left: 58vh;
+    font-size: 25px;
+    height: 150px;
+    width: 680px;
+    padding: 0.5em;
+} 
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}
+.inner1{
+    height: 30vmin;
+    width: 70vmin;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vmin;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin: 50px;
+    font-size: 50px;
+    font-style: oblique;
+    color: #dcbead;
+    font-weight: bolder;
+}
+#stone{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93);
+    background-image: url("rock12.png");
+    background-size: cover;
+}
+#paper{
+    height: 21vmin;
+    width: 21vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93);
+    background-image: url("paper123.png");
+    background-size: cover;
+}
+#scissors{
+    height: 21vmin;
+    width: 21vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93);
+    background-image: url("scissors123.jpeg");
+    background-size: cover;
+}
+.inner2{
+    height: 30vmin;
+    width: 70vmin;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vmin;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    height: 20vmin;
+    width: 20vmin;
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93);
+}
+.two{
+    height: 20vmin;
+    width: 20vmin;
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93);
+}
+.onestone{
+    height: 21vmin;
+    width: 21vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    background-image: url("rock12.png");
+    background-size: cover;
+}
+.onepaper{
+    height: 21vmin;
+    width: 21vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    background-image: url("paper123.png");
+    background-size: cover;
+}
+.onescissors{
+    height: 21vmin;
+    width: 21vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    background-image: url("scissors123.jpeg");
+    background-size: cover;
+}
+.twostone{
+    height: 21vmin;
+    width: 21vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    background-image: url("rock12.png");
+    background-size: cover;
+}
+.twopaper{
+    height: 21vmin;
+    width: 21vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    background-image: url("paper123.png");
+    background-size: cover;
+}
+.twoscissors{
+    height: 21vmin;
+    width: 21vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    background-image: url("scissors123.jpeg");
+    background-size: cover;
+}
+.next{
+    height: 500px;
+    width: 700px;
+    display: flex;
+    margin-left: 60vh;
+    margin-top: 100px;
+    flex-direction: row;
+    background-color: #133c47;
+    border-radius: 20px; 
+    box-shadow: 0 0 2.5rem rgb(118, 107, 93);;
+}
+.your{
+    height: 700px;
+    border-right: solid#240046;
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+}
+.computer{
+    height: 700px;
+    width: 345px;
+    border-left: solid#240046;
+}
+.text1{
+    font-size: 40px;
+    width: 345px;
+    height: 50px;
+    background-color:#240046;
+    color : #f2e9e4;
+    margin-top: 0px;
+}
+.text2{
+    font-size: 40px;
+    width: 350px;
+    height: 50px;
+    color: #f2e9e4;
+    background-color:#240046;
+    margin-top: 0px;
+}
+.nextones{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 65px;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93); 
+    background-image: url("rock12.png");
+    background-size: cover;
+}
+.nextonep{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 65px;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93); 
+    background-image: url("paper123.png");
+    background-size: cover;
+}
+.nextonesc{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 65px;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93); 
+    background-image: url("scissors123.jpeg");
+    background-size: cover;
+}
+.nexttwos{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 65px;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93); 
+    background-image: url("rock12.png");
+    background-size: cover;
+}
+.nexttwop{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 65px;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93); 
+    background-image: url("paper123.png");
+    background-size: cover;
+}
+.nexttwosc{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 65px;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93); 
+    background-image: url("scissors123.jpeg");
+    background-size: cover;
+}
+.final{
+    height: 450px;
+    width: 700px;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-left: 60vh;
+    border:solid#133c47;
+    border-radius: 20px;
+    box-shadow: 10px 10px #1c6072;
+    background-color: aliceblue;
+}
+.inner{
+    height: 30vmin;
+    width: 700px;
+    gap: 4.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #0569AB;
+}
+#your1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25vmin;
+    width: 25vmin;
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93);
+    background-image: url("stone2.jpg");
+    background-size: cover;
+}
+#comp1{
+    height: 25vmin;
+    width: 25vmin;
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93);
+}
+.nextones1{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93); 
+    background-image: url("rock12.png");
+    background-size: cover;
+}
+.nextonep1{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93); 
+    background-image: url("paper123.png");
+    background-size: cover;
+}
+.nextonesc1{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93); 
+    background-image: url("scissors123.jpeg");
+    background-size: cover;
+}
+.nexttwos1{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93); 
+    background-image: url("rock12.png");
+    background-size: cover;
+}
+.nexttwop1{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93); 
+    background-image: url("paper123.png");
+    background-size: cover;
+}
+.nexttwosc1{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    border :  10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem rgb(118, 107, 93); 
+    background-image: url("scissors123.jpeg");
+    background-size: cover;
+}
+.msgbtn{
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 4px;
+    font-size: 1.5rem;
+    color: aliceblue;
+    background-color: black;
+    box-shadow: 0 0 1rem rgb(59, 58, 58);
+}
+.hide1{
+    display: none;
+}
+.hide2{
+    display: none;
+}
+.hide3{
+    display: none;
+}
